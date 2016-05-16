@@ -1,5 +1,6 @@
 [![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/199/9.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-event-199)
 [![Build Status](https://travis-ci.org/OCA/event.svg?branch=9.0)](https://travis-ci.org/OCA/event)
+[![Build Status](https://travis-ci.org/schmidtwastl/event.svg?branch=9.0)](https://travis-ci.org/schmidtwastl/event)
 [![Coverage Status](https://coveralls.io/repos/OCA/event/badge.svg?branch=9.0)](https://coveralls.io/r/OCA/event?branch=9.0)
 
 Event management addons for Odoo
