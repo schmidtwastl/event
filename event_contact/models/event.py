@@ -16,6 +16,7 @@ class EventEvent(models.Model):
     @api.multi
     @api.onchange("type")
     def _onchange_type_set_contact_ids(self):
+        # a test comment
         if self.type.contact_ids and not self.contact_ids:
             self.contact_ids = self.type.contact_ids
 
