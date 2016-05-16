@@ -43,6 +43,10 @@ class EventEvent(models.Model):
 
     @api.model
     def create(self, vals):
+        print 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA Travis CI Test successfull AAAAAAAAAAAAAAAAAAAAAAAA'
+        print 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA Travis CI Test successfull AAAAAAAAAAAAAAAAAAAAAAAA'
+        print 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA Travis CI Test successfull AAAAAAAAAAAAAAAAAAAAAAAA'
+        print 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA Travis CI Test successfull AAAAAAAAAAAAAAAAAAAAAAAA'
         event = super(EventEvent, self).create(vals)
         if (event.project_template and not event.project):
             event.project = self.get_project_with_duplicate_template(
